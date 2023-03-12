@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+display: flex;
+justify-content: center;
+/* align-items: center; */
+margin: 9% auto;
+max-width: 90vh;
+box-shadow: 20px 30px 15px rgba(0, 0, 0, 0.174);
+border-radius: 30px;
+}
+.left {
+    background-image:linear-gradient(to bottom,  hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding:5em 1em; */
+
+}
+
+.right {
+    width: 50%;
+    border-radius: 30px;
+}
+
+.circle {
+    background-image: linear-gradient(to bottom,hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1)  );
+    border-radius: 55%;
+    padding: 3.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hundred {
+/* margin: 1.5em; */
+margin-top: 0;
+
+
+}
+
+.result {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: 400;
+}
+
+.block{
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.great{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: 700;
+}
+
+.higher{
+    width: 55%;
+    margin-top: 0;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* padding: 1em; */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items:space-evenly;
+    /* border: 2px solid black; */
+    width:80%;
+    padding: 1em;
+    border-radius: 50px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.reaction{
+    background-color:hsla(0, 100%, 67%, 0.264) ;
+    margin-left: 1em;
+
+
+}
+
+.color1{
+    color:hsl(0, 100%, 67%);
+}
+
+.memory {
+background-color:hsla(39, 100%, 56%, 0.143) ;
+margin-left: 1em;
+}
+
+.color2{
+    color:hsl(39, 100%, 56%);
+}
+
+.verbal{
+    background-color:hsla(166, 100%, 37%, 0.168) ;
+    margin-left: 1em;
+}
+
+.color3{
+    color:hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.112);
+    margin-left: 1em;
+}
+
+.color4{
+    color:hsl(234, 85%, 45%)
+}
+
+button{
+    width: 86%;
+    padding: 1em;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-color: hsl(224, 30%, 27%);
+    color:hsl(0, 0%, 100%);
+    font-size: 1em;
+    letter-spacing: .1em;
+    border: none;
+    margin-left:1.2em;
+}
+
+.summary{
+    margin-left:1em ;
+}
